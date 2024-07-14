@@ -1,88 +1,59 @@
 .to-do-list {
-    width: 300px;
-    margin: 0 auto;
+    width: 300px;margin: 0 auto;
     padding: 20px;
-    background-color: #333;
-    border-radius: 10px;
-    color: #fff;
+    background-color: #333; border-radius: 10px;  color: #fff;
   }
-  
   .to-do-list h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
   }
-  
   .to-do-list input[type='text'] {
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #555;
-    border-radius: 5px;
-    background-color: #222;
-    color: #fff;
+    width: 200px; padding: 10px;
+    border: 1px solid #555;border-radius: 5px;
+    background-color: #222;color: #fff;
     margin-right: 10px;
   }
-  
   .to-do-list .add-button {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #5cb85c;
-    color: white;
+    border: none;border-radius: 5px; background-color: #5cb85c;color: white;
     cursor: pointer;
   }
-  
   .to-do-list .add-button:hover {
     background-color: #4cae4c;
   }
-  
   .to-do-list ol {
     list-style-type: decimal;
     padding-left: 20px;
   }
-  
   .to-do-list li {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; align-items: center;
     padding: 10px 0;
   }
-  
   .to-do-list .text {
-    flex: 1;
-    margin-right: 10px;
+    flex: 1; margin-right: 10px;
   }
-  
   .to-do-list .delete-button,
   .to-do-list .up-button,
   .to-do-list .down-button {
     padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #d9534f;
-    color: white;
-    cursor: pointer;
-    margin-left: 5px;
+    border: none;border-radius: 5px;  background-color: #d9534f;color: white;
+    cursor: pointer; margin-left: 5px;
   }
-  
   .to-do-list .delete-button:hover,
   .to-do-list .up-button:hover,
   .to-do-list .down-button:hover {
     background-color: #c9302c;
   }
-  
   .to-do-list .up-button,
   .to-do-list .down-button {
     background-color: #5bc0de;
   }
-  
   .to-do-list .up-button:hover,
   .to-do-list .down-button:hover {
     background-color: #31b0d5;
   }
   .to-do-list .input-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex;justify-content: space-between; align-items: center;  margin-bottom: 20px;
   }
